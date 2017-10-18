@@ -1,10 +1,10 @@
 {
-  "spec_files": [
-    "**/Player.spec.js"
-  ],
-  "helpers": [
-    "**/CustomMatchers.js"
-  ],
-  "stopSpecOnExpectationFailure": false,
-  "random": false
+    "spec_files": [
+        "**/Player.spec.js"
+    ],
+    "helpers": [
+        "**/CustomMatchers.js"
+    ],
+    "stopSpecOnExpectationFailure": false,
+    "random": false
 }

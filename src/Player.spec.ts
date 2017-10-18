@@ -5,7 +5,7 @@ import { Song } from './Song';
 
 import { customMatchers } from './CustomMatchers';
 
-describe('Player', function () {
+describe('Player',  () => {
     let player: Player;
     let song: Song;
 
