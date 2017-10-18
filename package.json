@@ -1,0 +1,22 @@
+{
+    "name": "jasmine-typescript-demo",
+    "version": "1.0.0",
+    "description": "Minimal setup for a Typescript project with Jasmine tests",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hwellmann/jasmine-typescript-demo.git"
+    },
+    "scripts": {
+        "lint": "tslint --project .",
+        "pretest": "tsc",
+        "test": "jasmine JASMINE_CONFIG_PATH=./jasmine.json"
+    },
+    "author": "Harald Wellmann",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/jasmine": "^2.6.0",
+        "jasmine": "^2.8.0",
+        "tslint": "^5.7.0",
+        "typescript": "^2.5.3"
+    }
+}
